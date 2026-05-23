@@ -33,14 +33,14 @@ function Header() {
     </header>
 
     <div id='menu' className='fixed left-[-100%] top-0 h-[100vh] w-[280px] bg-[#141a29]/96 z-60 '>
-    <div className='flex justify-end p-4 '><p onClick={CLoseMenu}>✖</p></div>
+    <div className='flex justify-end p-4 text-white'><p onClick={CLoseMenu}>✖</p></div>
       <ul className='flex flex-col justify-content-center gap-3 pl-6 pr-6 text-white'>
           <li className='hover:scale-[1.07] duration-500 border-b'>Home</li>
           <li className='hover:scale-[1.07] duration-500 border-b'>About</li>
           <li className='hover:scale-[1.07] duration-500 border-b'>Contact</li>
           <li className='hover:scale-[1.07] duration-500 border-b'>Services</li>
         </ul>
-        <div className='flex justify-end items-end pt-[63vh]'>
+        <div className='flex justify-end items-end pt-[58vh]'>
           <img className='w-[120px]' src={logo} alt="" />
         </div>
     </div>
